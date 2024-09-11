@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CozyCottages - Your Perfect Coastal Retreat</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <h1>CozyCottages</h1>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cottages">Cottages</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>
+            Discover Your Perfect
+            <span style="color: var(--secondary-color)">Coastal Retreat</span>
+          </h1>
+          <p>
+            Experience the beauty and tranquility of our handpicked seaside
+            cottages
+          </p>
+          <button class="btn">Book Your Stay</button>
+        </div>
+      </section>
+
+      <section id="cottages" class="cottages">
+        <div class="container">
+          <h2 class="section-title">Our Cozy Cottages</h2>
+          <div class="cottage-grid">
+            <div class="cottage-card">
+              <img
+                src="https://i.pinimg.com/736x/58/79/50/58795085feb803ecb79eb817e268b1a0.jpg"
+                alt="Seaside Haven" />
+              <div class="cottage-card-content">
+                <h3>Seaside Haven</h3>
+                <p>Stunning ocean views</p>
+                <p>Coastal Village, UK</p>
+                <p>
+                  <span class="star">★★★★★</span>
+                  4.8 (120 reviews)
+                </p>
+                <button class="btn">View Details</button>
+              </div>
+            </div>
+            <div class="cottage-card">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt="Cliff Retreat" />
+              <div class="cottage-card-content">
+                <h3>Cliff Retreat</h3>
+                <p>Perched on scenic cliffs</p>
+                <p>Rocky Bay, UK</p>
+                <p>
+                  <span class="star">★★★★★</span>
+                  4.9 (95 reviews)
+                </p>
+                <button class="btn">View Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container">
+          <h2 class="section-title">About CozyCottages</h2>
+          <p>
+            At CozyCottages, we're passionate about providing unique coastal
+            experiences. Whether you're looking for a romantic getaway or a
+            family adventure, our carefully curated selection of cottages offers
+            the perfect backdrop for your seaside memories.
+          </p>
+          <button class="btn">Learn More</button>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="contact-info">
+            <div class="contact-details">
+              <h3>Contact Information</h3>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+44 123 456 7890</p>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>info@cozycottages.com</p>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>123 Seaside Avenue, Coastal Town, CT1 2AB</p>
+              </div>
+            </div>
+            <div class="office-hours">
+              <h3>Office Hours</h3>
+              <ul>
+                <li><i class="far fa-clock"></i> Monday - Friday: 9am - 5pm</li>
+                <li><i class="far fa-clock"></i> Saturday: 10am - 2pm</li>
+                <li><i class="far fa-clock"></i> Sunday: Closed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2023 CozyCottages. All rights reserved.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const header = document.querySelector("header");
+        const exploreBtn = document.querySelector("nav .btn");
+        const bookBtn = document.querySelector(".hero .btn");
+        const viewDetailsBtns = document.querySelectorAll(".cottage-card .btn");
+        const learnMoreBtn = document.querySelector(".about .btn");
+
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > 50) {
+            header.classList.add("scrolled");
+          } else {
+            header.classList.remove("scrolled");
+          }
+        });
+
+        exploreBtn.addEventListener("click", function () {
+          document
+            .getElementById("cottages")
+            .scrollIntoView({ behavior: "smooth" });
+        });
+
+        bookBtn.addEventListener("click", function () {
+          alert("Booking functionality coming soon!");
+        });
+
+        viewDetailsBtns.forEach((btn) => {
+          btn.addEventListener("click", function () {
+            const cottageName =
+              this.closest(".cottage-card").querySelector("h3").textContent;
+            alert(
+              `You're viewing details for ${cottageName}. Full details coming soon!`
+            );
+          });
+        });
+
+        learnMoreBtn.addEventListener("click", function () {
+          alert("More information about CozyCottages coming soon!");
+        });
+      });
+    </script>
+  </body>
+</html>
